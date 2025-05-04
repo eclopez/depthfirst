@@ -1,14 +1,14 @@
 ---
-
+import Head from '../components/Head.astro';
+import '../styles/global.css';
 ---
 
 <html>
-  <body>
-    <h1>Hello, World!</h1>
+  <Head />
+  <body lang="en">
+    <h1 class="font-cal-sans text-4xl">Hello, World!</h1>
+    <p class="font-inter text-md">
+      This is a sample page using Astro with Tailwind CSS and custom fonts.
+    </p>
   </body>
 </html>
-<style>
-  h1 {
-    color: orange;
-  }
-</style>
