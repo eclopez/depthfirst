@@ -1,8 +1,11 @@
-# dependencies
-/node_modules
+# astro
+.astro/
 
 # debug
 npm-debug.log*
+
+# dependencies
+/node_modules
 
 # local env files
 .env
