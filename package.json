@@ -4,6 +4,15 @@
   "description": "A blog featuring in-depth, focused articles on different topics in software engineering.",
   "author": "Erik Lopez",
   "license": "UNLICENSED",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.2.7",
+    "astro": "^5.7.10"
+  },
   "devDependencies": {
     "prettier": "^3.5.3"
   }
