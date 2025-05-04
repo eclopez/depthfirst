@@ -1,5 +1,6 @@
 # astro
 .astro/
+dist/
 
 # debug
 npm-debug.log*
@@ -9,6 +10,8 @@ npm-debug.log*
 
 # local env files
 .env
+.env.*
+!.env.example
 
 # misc
 .DS_Store
